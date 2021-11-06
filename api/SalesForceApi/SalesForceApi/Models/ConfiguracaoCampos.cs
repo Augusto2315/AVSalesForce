@@ -5,6 +5,7 @@ namespace SalesForceApi.Models
 {
     public class ConfiguracaoCampos
     {
+
         [Required]
         public int CodEmpresa { get; set; }
         [Required]
@@ -19,8 +20,7 @@ namespace SalesForceApi.Models
 
     public class UsuariosPermissao
     {
-        [Required]
-        public int CodEmpresa { get; set; }
+        [Key]
         [Required]
         public string Usuario { get; set; }
         [Required]

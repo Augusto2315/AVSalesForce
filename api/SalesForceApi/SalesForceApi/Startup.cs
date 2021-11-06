@@ -12,8 +12,6 @@ namespace SalesForceApi
     public class Startup
     {
 
-        private const string StringConexao = "Server=localhost\\SQLExpress;Database=AvSalesForce;User Id=adminsalesforce;Password=salesforce123;Trusted_Connection=True;";
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,8 +25,8 @@ namespace SalesForceApi
 
             services.AddControllers();
 
-            services.AddDbContext<OrcamentoDAO>(opt => opt.UseSqlServer(StringConexao));
-            services.AddDbContext<ConfiguracaoCamposDAO>(opt => opt.UseSqlServer(StringConexao));
+            //services.AddDbContext<OrcamentoDAO>(opt => opt.UseSqlServer(Configuration.GetConnectionString("SalesForceDB")));
+            //services.AddDbContext<ConfiguracaoCamposDAO>(opt => opt.UseSqlServer(Configuration.GetConnectionString("SalesForceDB")));
 
             services.AddSwaggerGen(c =>
             {
