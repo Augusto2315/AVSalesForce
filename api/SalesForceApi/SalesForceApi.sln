@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceApi", "SalesForceApi\SalesForceApi.csproj", "{466CBDEF-0543-4F68-BA17-878DD45B16D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesForceApi", "SalesForceApi\SalesForceApi.csproj", "{466CBDEF-0543-4F68-BA17-878DD45B16D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForce.Model", "SalesForce.Model\SalesForce.Model.csproj", "{BE651D12-1011-4DB5-9C17-DBE1883FD988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForce.DataAccess", "SalesForce.DataAccess\SalesForce.DataAccess.csproj", "{71087CDD-F062-4A02-9A1B-85FD56D85AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{466CBDEF-0543-4F68-BA17-878DD45B16D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{466CBDEF-0543-4F68-BA17-878DD45B16D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{466CBDEF-0543-4F68-BA17-878DD45B16D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE651D12-1011-4DB5-9C17-DBE1883FD988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE651D12-1011-4DB5-9C17-DBE1883FD988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE651D12-1011-4DB5-9C17-DBE1883FD988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE651D12-1011-4DB5-9C17-DBE1883FD988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71087CDD-F062-4A02-9A1B-85FD56D85AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71087CDD-F062-4A02-9A1B-85FD56D85AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71087CDD-F062-4A02-9A1B-85FD56D85AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71087CDD-F062-4A02-9A1B-85FD56D85AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

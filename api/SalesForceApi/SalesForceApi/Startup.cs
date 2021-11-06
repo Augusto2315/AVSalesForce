@@ -4,8 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Microsoft.EntityFrameworkCore;
-using SalesForceApi.DAO;
 
 namespace SalesForceApi
 {
@@ -24,10 +22,6 @@ namespace SalesForceApi
         {
 
             services.AddControllers();
-
-            //services.AddDbContext<OrcamentoDAO>(opt => opt.UseSqlServer(Configuration.GetConnectionString("SalesForceDB")));
-            //services.AddDbContext<ConfiguracaoCamposDAO>(opt => opt.UseSqlServer(Configuration.GetConnectionString("SalesForceDB")));
-
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SalesForceApi", Version = "v1" });

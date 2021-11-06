@@ -1,0 +1,11 @@
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.AssemblyInfoInputs.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.AssemblyInfo.cs
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.CoreCompileInputs.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.deps.json
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.pdb
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.pdb
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.GlobalUsings.g.cs
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.AssemblyReference.cache
