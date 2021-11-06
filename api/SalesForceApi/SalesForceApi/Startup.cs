@@ -1,21 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using SalesForceApi.DAO;
 
 namespace SalesForceApi
 {
     public class Startup
     {
+
+        private const string StringConexao = "Server=localhost\\SQLExpress;Database=AvSalesForce;User Id=adminsalesforce;Password=salesforce123;Trusted_Connection=True;";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,6 +26,10 @@ namespace SalesForceApi
         {
 
             services.AddControllers();
+
+            services.AddDbContext<OrcamentoDAO>(opt => opt.UseSqlServer(StringConexao));
+            services.AddDbContext<ConfiguracaoCamposDAO>(opt => opt.UseSqlServer(StringConexao));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SalesForceApi", Version = "v1" });

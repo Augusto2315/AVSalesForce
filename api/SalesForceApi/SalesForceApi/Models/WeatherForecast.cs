@@ -1,6 +1,6 @@
 using System;
 
-namespace SalesForceApi
+namespace SalesForceApi.Models
 {
     public class WeatherForecast
     {
