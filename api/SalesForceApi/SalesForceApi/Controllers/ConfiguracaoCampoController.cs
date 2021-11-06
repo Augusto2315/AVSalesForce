@@ -30,5 +30,23 @@ namespace SalesForceApi.Controllers
             List<ConfiguracaoCampos> lista = await DAO.GetConfiguracoes();
             return lista;
         }
+
+
+        [HttpPut]
+        public void Save(ConfiguracaoCampos configuracao)
+        {
+            DbContextOptions<ConfiguracaoCamposDAO> options = new DbContextOptions<ConfiguracaoCamposDAO>();
+            ConfiguracaoCamposDAO DAO = new ConfiguracaoCamposDAO(options);
+            DAO.InsertNew(configuracao);
+        }
+
+        [HttpPost]
+        public void Update(ConfiguracaoCampos configuracao)
+        {
+            DbContextOptions<ConfiguracaoCamposDAO> options = new DbContextOptions<ConfiguracaoCamposDAO>();
+            ConfiguracaoCamposDAO DAO = new ConfiguracaoCamposDAO(options);
+            DAO.Update(configuracao);
+        }
+
     }
 }

@@ -34,5 +34,21 @@ namespace SalesForceApi.DAO
             return this.Campos.ToListAsync();
         }
 
+        public void InsertNew(ConfiguracaoCampos configuracao)
+        {
+            this.Campos.Add(configuracao);
+            this.SaveChanges();
+        }
+
+        public async void Update(ConfiguracaoCampos configuracao)
+        {
+
+            ConfiguracaoCampos cfg = await this.Campos.SingleAsync(cfg => cfg.Campo == configuracao.Campo && cfg.CodEmpresa == configuracao.CodEmpresa);
+            cfg.Tela = configuracao.Tela;
+            cfg.Visivel = configuracao.Visivel;
+            this.SaveChanges();
+
+        }
+
     }
 }
