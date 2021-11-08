@@ -25,14 +25,14 @@ public class ConfiguracaoCampoController : ControllerBase
 
 
     [HttpPut]
-    public void Save(ConfiguracaoCampos configuracao)
+    public Task<ConfiguracaoCampos> Save(ConfiguracaoCampos configuracao)
     {
         ConfiguracaoCamposDAO DAO = new ConfiguracaoCamposDAO();
-        DAO.Save(configuracao);
+        return DAO.Save(configuracao);
     }
 
     [HttpPost]
-    public Task Update(ConfiguracaoCampos configuracao)
+    public Task<ConfiguracaoCampos> Update(ConfiguracaoCampos configuracao)
     {
         ConfiguracaoCamposDAO DAO = new ConfiguracaoCamposDAO();
         return DAO.Update(configuracao);

@@ -1,10 +1,10 @@
 ** Rodar no Console do Gerenciador de Pacotes
 
 ** CRIA ARQUIVOS DE MIGRAÇÃO
-Add-Migration InitialCreate -Context ConfiguracaoCamposDAO
+Add-Migration InitialCreate
 
 ** GERA SCRIPT SQL DE MIGRAÇÃO
-Script-Migration -Context ConfiguracaoCamposDAO
+Script-Migration
 
 ** JOGA O SCRIPT PARA O BANCO
-Update-Database -Context ConfiguracaoCamposDAO
+Update-Database

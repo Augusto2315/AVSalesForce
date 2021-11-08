@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-    public class SalesForceDBContext : DbContext
-    {
+public class SalesForceDBContext : DbContext
+{
 
     private const string sqlString = "Server=localhost\\SQLExpress;Database=AvSalesForce;User Id=adminsalesforce;password=salesforce123;Trusted_Connection=True;MultipleActiveResultSets=true";
 
@@ -14,6 +14,10 @@
     {
         modelBuilder.Entity<ConfiguracaoCampos>()
         .HasKey(c => new { c.CodEmpresa, c.Tela, c.Campo });
+
+        //modelBuilder.Entity<UsuariosPermissao>()
+        //.HasKey(c => new { c.Usuario, c.Campo });
+
     }
 
     public DbSet<ConfiguracaoCampos> Campos { get; set; }

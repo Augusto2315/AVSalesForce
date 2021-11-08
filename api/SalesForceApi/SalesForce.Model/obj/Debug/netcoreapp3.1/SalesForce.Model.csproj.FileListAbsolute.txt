@@ -9,3 +9,11 @@ D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.
 D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.pdb
 D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.GlobalUsings.g.cs
 D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.AssemblyReference.cache
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.deps.json
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.dll
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\netcoreapp3.1\SalesForce.Model.pdb
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.AssemblyInfoInputs.cache
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.AssemblyInfo.cs
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.CoreCompileInputs.cache
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.dll
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.pdb

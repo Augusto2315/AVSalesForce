@@ -1,15 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using SalesForce.DataAcess;
 
 public class ConfiguracaoCamposDAO : DAO<ConfiguracaoCampos>
 {
 
-    private SalesForceDBContext context;
+    public DbSet<ConfiguracaoCampos> Campos { get; set; }
 
-    public ConfiguracaoCamposDAO()
+    public ConfiguracaoCamposDAO() : base(new SalesForceDBContext())
     {
-        context = new SalesForceDBContext();
+        Campos = DBContext.Campos;
     }
 
     public async Task<ConfiguracaoCampos> FindById(int codEmpresa, string campo)
@@ -21,22 +22,25 @@ public class ConfiguracaoCamposDAO : DAO<ConfiguracaoCampos>
 
     public async Task<List<ConfiguracaoCampos>> Get()
     {
-        return await context.Campos.ToListAsync();
+        return await DBContext.Campos.ToListAsync();
     }
 
-    public void Save(ConfiguracaoCampos campo)
+    public async Task<ConfiguracaoCampos> Save(ConfiguracaoCampos campo)
     {
-        context.Campos.Add(campo);
-        context.SaveChanges();
+        return await Save(campo);
+        //DBContext.Campos.Add(campo);
+        //await DBContext.SaveChangesAsync();
+        //return campo;
     }
 
-    public async Task Update(ConfiguracaoCampos campo)
+    public override async Task<ConfiguracaoCampos> Update(ConfiguracaoCampos campo)
     {
         ConfiguracaoCampos cfg = await FindById(campo.CodEmpresa, campo.Campo);
         cfg.Tela = campo.Tela;
         cfg.Visivel = campo.Visivel;
 
-        context.SaveChanges();
+        await DBContext.SaveChangesAsync();
+        return campo;
     }
 
 }
