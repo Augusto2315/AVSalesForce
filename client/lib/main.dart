@@ -33,6 +33,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  late bool _customTileExpanded = false;
+
   @override
   void initState() {
     super.initState();
@@ -77,23 +79,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
-  // Widget _createDrawerItem(
-  //     {required IconData icon,
-  //     required String text,
-  //     required GestureTapCallback onTap}) {
-  //   return ListTile(
-  //     title: Row(
-  //       children: <Widget>[
-  //         Icon(icon),
-  //         Padding(
-  //           padding: const EdgeInsets.only(left: 8.0),
-  //           child: Text(text),
-  //         )
-  //       ],
-  //     ),
-  //     trailing: const Icon(Icons.arrow_drop_down_outlined),
-  //     onTap: onTap,
-  //   );
-  // }
+  
 }

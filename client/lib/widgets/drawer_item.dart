@@ -26,7 +26,7 @@ class _DrawerItemState extends State<DrawerItem> {
           Padding(
             padding: const EdgeInsets.only(left: 8.0),
             child: Text(widget.text),
-          )
+          ),
         ],
       ),
       trailing: const Icon(Icons.arrow_drop_down_outlined),
