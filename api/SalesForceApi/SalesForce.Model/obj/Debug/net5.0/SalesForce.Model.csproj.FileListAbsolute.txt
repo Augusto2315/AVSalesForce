@@ -1,0 +1,4 @@
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\net5.0\SalesForce.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\net5.0\SalesForce.Model.AssemblyInfoInputs.cache
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\net5.0\SalesForce.Model.AssemblyInfo.cs
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\net5.0\SalesForce.Model.csproj.CoreCompileInputs.cache
