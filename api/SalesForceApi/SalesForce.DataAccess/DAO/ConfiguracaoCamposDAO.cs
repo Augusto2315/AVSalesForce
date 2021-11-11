@@ -27,11 +27,16 @@ public class ConfiguracaoCamposDAO : DAO<ConfiguracaoCampos>
 
     public async Task<ConfiguracaoCampos> Save(ConfiguracaoCampos campo)
     {
-        return await Save(campo);
-        //DBContext.Campos.Add(campo);
-        //await DBContext.SaveChangesAsync();
-        //return campo;
+        return await base.Save(campo);
     }
+
+    public async Task<bool> RemoveAll()
+    {
+        SalesForceDBContext context = new SalesForceDBContext();
+        await context.Database.ExecuteSqlRawAsync("TRUNCATE TABLE Campos");
+        return true;
+    }
+
 
     public override async Task<ConfiguracaoCampos> Update(ConfiguracaoCampos campo)
     {

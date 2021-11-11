@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 class DrawerItem extends StatefulWidget {
   late IconData icon = Icons.ac_unit;
   late String text = '';
-  late GestureTapCallback? onTap = null;
+  late String route = '';
 
   DrawerItem({
     Key? key,
-    required IconData icon,
-    required String text,
-    required GestureTapCallback onTap,
+    required this.icon,
+    required this.text,
+    required this.route,
   }) : super(key: key);
 
   @override
@@ -30,7 +30,7 @@ class _DrawerItemState extends State<DrawerItem> {
         ],
       ),
       trailing: const Icon(Icons.arrow_drop_down_outlined),
-      onTap: widget.onTap,
+      onTap: () => {Navigator.pushNamed(context, widget.route)},
     );
   }
 }

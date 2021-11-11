@@ -17,3 +17,5 @@ D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.CoreCompileInputs.cache
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.dll
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.pdb
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.csproj.AssemblyReference.cache
+D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\obj\Debug\netcoreapp3.1\SalesForce.Model.GeneratedMSBuildEditorConfig.editorconfig

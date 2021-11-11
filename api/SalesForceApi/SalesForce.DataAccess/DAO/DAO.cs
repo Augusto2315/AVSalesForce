@@ -20,58 +20,57 @@ namespace SalesForce.DataAcess
         }
 
 
-        internal virtual void Save(T obj, bool saveChanges = false)
+        internal virtual async Task<T> Save(T obj, bool saveChanges = false)
         {
             try
             {
-                DBContext.Add(obj);
+                await DBContext.AddAsync(obj);
                 if (saveChanges)
                 {
-                    DBContext.SaveChanges();
+                    await DBContext.SaveChangesAsync();
                 }
             }
             catch (Exception)
             {
                 throw;
             }
+            return obj;
         }
 
-        internal virtual void Save(List<T> objs, bool saveChanges = true)
+        internal async virtual Task<List<T>> Save(List<T> objs, bool saveChanges = true)
         {
             try
             {
                 foreach (T obj in objs)
                 {
-                    Save(obj);
+                    await Save(obj);
                 }
                 if (saveChanges)
                 {
-                    DBContext.SaveChanges();
+                    await DBContext.SaveChangesAsync();
                 }
             }
             catch (Exception)
             {
                 throw;
             }
+            return objs;
         }
 
-        internal virtual void Delete(T obj)
+        internal async virtual void Delete(T obj)
         {
             try
             {
-
-
                 DBContext.Remove(obj);
-                DBContext.SaveChanges();
+                await DBContext.SaveChangesAsync();
             }
             catch (Exception)
             {
                 throw;
             }
-
         }
 
-        internal virtual void Delete(List<T> objs)
+        internal virtual void DeleteList(List<T> objs)
         {
             try
             {
@@ -85,6 +84,11 @@ namespace SalesForce.DataAcess
             {
                 throw;
             }
+        }
+
+        internal async virtual void DeleteAll(string tableName)
+        {
+            await DBContext.Database.ExecuteSqlRawAsync($"TRUNCATE TABLE {tableName}");
         }
 
 #pragma warning disable CS0693 // Type parameter has the same name as the type parameter from outer type

@@ -31,6 +31,21 @@ public class ConfiguracaoCampoController : ControllerBase
         return DAO.Save(configuracao);
     }
 
+    [HttpPut]
+    public async Task<List<ConfiguracaoCampos>> SaveList(List<ConfiguracaoCampos> configuracoes)
+    {
+        ConfiguracaoCamposDAO DAO = new ConfiguracaoCamposDAO();
+        await Task.Run(async () =>
+        {
+            await DAO.RemoveAll();
+            configuracoes.ForEach((campo) =>
+            {
+                campo = DAO.Save(campo).Result;
+            });
+        });
+        return configuracoes;
+    }
+
     [HttpPost]
     public Task<ConfiguracaoCampos> Update(ConfiguracaoCampos configuracao)
     {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YTlo9gDSh4bEdB2Ivr6SL1bQ2Hk7BdJ6Qf8JS6Fa+Gog6yRCGSXtgpSGN6GogYJqoafm2acVsy4cJoLKLEtQCA==",
+  "dgSpecHash": "KQzhUW04bP3/FRI9HgufbtplfhFlSCPuQxc4GyZ/+uOEObynUTqSyh9CGiyIgL1wvJo87b9O8r4w3BPyNTzXPA==",
   "success": true,
   "projectFilePath": "D:\\BitBucket\\AvSales\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj",
   "expectedPackageFiles": [

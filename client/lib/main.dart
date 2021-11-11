@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:salesforce/configuracao_campos/configuracao_campos.dart';
 import 'package:salesforce/widgets/drawer_item.dart';
-import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'AV Sales Force',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const MyHomePage(),
+      routes: {
+        '/configuracao-campos': (context) => const ConfiguracaoCamposWidget(),
+      },
     );
   }
 }
@@ -55,18 +58,17 @@ class _MyHomePageState extends State<MyHomePage> {
             DrawerItem(
               icon: Icons.account_circle,
               text: 'Cadastros',
-              onTap: () => {Navigator.pop(context)},
+              route: '',
             ),
             DrawerItem(
               icon: Icons.attach_money,
               text: 'Movimentos',
-              onTap: () => {Navigator.pop(context)},
+              route: '',
             ),
             DrawerItem(
-              icon: Icons.settings,
-              text: 'Configurações',
-              onTap: () => {Navigator.pop(context)},
-            ),
+                icon: Icons.settings,
+                text: 'Configurações',
+                route: '/configuracao-campos')
           ],
         ),
       ),
