@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:salesforce/configuracao_campos/configuracao_campos.dart';
-import 'package:salesforce/widgets/drawer_item.dart';
+import 'package:salesforce/shared/base_app_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const MyHomePage(),
       routes: {
-        '/configuracao-campos': (context) => const ConfiguracaoCamposWidget(),
+        '/configuracoes/configuracao-campos': (context) =>
+            const ConfiguracaoCamposWidget(),
       },
     );
   }
@@ -42,37 +43,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return BaseAppBarWidget(
+      routeSelected: '/main',
       appBar: AppBar(
         title: const Text('Syncfusion Flutter DataGrid'),
-      ),
-      drawer: Drawer(
-        child: ListView(
-          // physics: ClampingScrollPhysics(),
-          // shrinkWrap: true,
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            const UserAccountsDrawerHeader(
-              accountEmail: Text("augusto.cesar.de.assis@gmail.com"),
-              accountName: Text("Augusto Cesar de Assis"),
-              currentAccountPicture: CircleAvatar(child: Text("AA")),
-            ),
-            DrawerItem(
-              icon: Icons.account_circle,
-              text: 'Cadastros',
-              route: '',
-            ),
-            DrawerItem(
-              icon: Icons.attach_money,
-              text: 'Movimentos',
-              route: '',
-            ),
-            DrawerItem(
-                icon: Icons.settings,
-                text: 'Configurações',
-                route: '/configuracao-campos')
-          ],
-        ),
       ),
       body: const Center(
         child: Text("Av Sales Force"),
