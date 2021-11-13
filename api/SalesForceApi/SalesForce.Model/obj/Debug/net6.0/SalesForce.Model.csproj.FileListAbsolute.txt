@@ -1,15 +1,3 @@
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\SalesForce.Model.deps.json
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\SalesForce.Model.dll
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\ref\SalesForce.Model.dll
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\SalesForce.Model.pdb
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.GlobalUsings.g.cs
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.AssemblyInfoInputs.cache
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.AssemblyInfo.cs
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.csproj.CoreCompileInputs.cache
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.dll
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\ref\SalesForce.Model.dll
-D:\Projects\SalesForce\api\SalesForceApi\SalesForce.Model\obj\Debug\net6.0\SalesForce.Model.pdb
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\SalesForce.Model.deps.json
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\SalesForce.Model.dll
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.Model\bin\Debug\net6.0\ref\SalesForce.Model.dll

@@ -15,11 +15,13 @@ public class SalesForceDBContext : DbContext
         modelBuilder.Entity<ConfiguracaoCampos>()
         .HasKey(c => new { c.CodEmpresa, c.Tela, c.Campo });
 
-        //modelBuilder.Entity<UsuariosPermissao>()
-        //.HasKey(c => new { c.Usuario, c.Campo });
+        modelBuilder.Entity<Grupo>()
+        .HasKey(c => new { c.CodEmpresa, c.CodGrupo });
 
     }
 
     public DbSet<ConfiguracaoCampos> Campos { get; set; }
+    public DbSet<Grupo> Grupos { get; set; }
+    public DbSet<Usuarios> Usuarios { get; set; }
 
 }
