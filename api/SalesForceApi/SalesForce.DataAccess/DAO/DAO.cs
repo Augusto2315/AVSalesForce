@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -105,6 +106,19 @@ namespace SalesForce.DataAcess
             }
         }
 
+
+        public static string GetTableName(T t)
+        {
+
+            Type type = typeof(T);
+            PropertyInfo[] propInfos
+                = type.GetProperties(BindingFlags.Instance
+                    | BindingFlags.Public
+                    | BindingFlags.DeclaredOnly);
+            return "";
+
+            //return t.GetProperty("Table").GetValue(t).ToString();
+        }
 
         public abstract Task<T> Update(T obj);
     }

@@ -13,8 +13,6 @@ namespace SalesForceApi
     {
         public static void Main(string[] args)
         {
-            if (1 != 1)
-            {           }
             CreateHostBuilder(args).Build().Run();
         }
 
