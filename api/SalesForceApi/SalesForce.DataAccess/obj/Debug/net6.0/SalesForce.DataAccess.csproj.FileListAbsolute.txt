@@ -15,3 +15,37 @@ D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\Sa
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\ref\SalesForce.DataAccess.dll
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.pdb
 D:\BitBucket\AvSales\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.genruntimeconfig.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.deps.json
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.runtimeconfig.json
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\ref\SalesForce.DataAccess.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.pdb
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.Model.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.Model.pdb
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.AssemblyReference.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.AssemblyInfo.cs
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.CopyComplete
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\ref\SalesForce.DataAccess.dll
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.pdb
+D:\Projects\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.genruntimeconfig.cache
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.deps.json
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.runtimeconfig.json
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.dll
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\ref\SalesForce.DataAccess.dll
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.DataAccess.pdb
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.Model.dll
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\bin\Debug\net6.0\SalesForce.Model.pdb
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.AssemblyReference.cache
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.AssemblyInfo.cs
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.csproj.CopyComplete
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.dll
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\ref\SalesForce.DataAccess.dll
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.pdb
+D:\Projects\SalesForce 2\SalesForce\api\SalesForceApi\SalesForce.DataAccess\obj\Debug\net6.0\SalesForce.DataAccess.genruntimeconfig.cache

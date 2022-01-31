@@ -5706,11 +5706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
+      "projectUniqueName": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
       "projectName": "SalesForce.Model",
-      "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
+      "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
       "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\obj\\",
+      "outputPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",

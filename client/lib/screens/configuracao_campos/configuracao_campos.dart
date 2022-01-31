@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:salesforce/configuracao_campos/configuracao_campos_grid/configuracao_campos_grid.dart';
 import 'package:salesforce/shared/base_app_bar.dart';
+
+import 'configuracao_campos_grid/configuracao_campos_grid.dart';
 
 class ConfiguracaoCamposWidget extends StatelessWidget {
   const ConfiguracaoCamposWidget({Key? key}) : super(key: key);

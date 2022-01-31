@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:salesforce/repositories/campos_repository.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
-import '../../models/campos.dart';
+import '../../../models/campos.dart';
 
 class ConfiguracaoCamposGridWidget extends StatefulWidget {
   const ConfiguracaoCamposGridWidget({Key? key}) : super(key: key);

@@ -1,57 +1,44 @@
 import 'package:flutter/material.dart';
-import 'package:salesforce/configuracao_campos/configuracao_campos.dart';
-import 'package:salesforce/shared/base_app_bar.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:salesforce/screens/home.dart';
+import 'package:salesforce/shared/routes/app_pages.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Home());
 }
 
-/// The application that contains datagrid on it.
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class Home extends StatelessWidget {
+  const Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'AV Sales Force',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const MyHomePage(),
-      routes: {
-        '/configuracoes/configuracao-campos': (context) =>
-            const ConfiguracaoCamposWidget(),
-      },
+      theme: ThemeData(
+        fontFamily: 'Roboto',
+        applyElevationOverlayColor: true,
+        primaryColor: const Color.fromARGB(255, 91, 95, 151),
+        colorScheme: ColorScheme(
+          brightness: Brightness.light,
+          background: const Color.fromARGB(255, 255, 255, 251),
+          onBackground: Colors.black,
+          primary: const Color.fromARGB(255, 91, 95, 151),
+          onPrimary: Colors.white,
+          secondary: Colors.orangeAccent,
+          onSecondary: Colors.white,
+          primaryVariant: const Color.fromARGB(255, 184, 184, 209),
+          surface: const Color.fromARGB(255, 184, 184, 209),
+          onSurface: Colors.black,
+          secondaryVariant: Colors.indigo.shade200,
+          error: const Color.fromARGB(255, 255, 139, 140),
+          onError: const Color.fromARGB(255, 255, 255, 251),
+        ),
+      ),
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      getPages: AppPages.routes,
+      home: const HomeWidget(),
     );
   }
-}
-
-/// The home page of the application which hosts the datagrid.
-class MyHomePage extends StatefulWidget {
-  /// Creates the home page.
-  const MyHomePage({Key? key}) : super(key: key);
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  late bool _customTileExpanded = false;
-
-  @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return BaseAppBarWidget(
-      routeSelected: '/main',
-      appBar: AppBar(
-        title: const Text('Syncfusion Flutter DataGrid'),
-      ),
-      body: const Center(
-        child: Text("Av Sales Force"),
-      ),
-    );
-  }
-  
 }

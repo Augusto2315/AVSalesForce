@@ -9,11 +9,18 @@ using System.ComponentModel.DataAnnotations.Schema;
     [Key]
     [StringLength(50)]
     public string Usuario { get; set; }
+
     [Required]
     [StringLength(250)]
     public string Nome { get; set; }
+
+    [Required]
+    [StringLength(250)]
+    public string Senha { get; set; }
+
     [StringLength(250)]
     public string Email { get; set; }
+
     [Required]
     public Grupo Grupo { get; set; }
 }

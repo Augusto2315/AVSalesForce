@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:salesforce/widgets/drawer_item.dart';
+import 'package:get/get.dart';
+import 'package:salesforce/controllers/widgetControllers/grupo_controller.dart';
+import 'package:salesforce/widgets/Menu/drawer_item.dart';
+import 'package:salesforce/widgets/Menu/drawer_menu.dart';
 
-// ignore: must_be_immutable
-class BaseAppBarWidget extends StatefulWidget {
+class BaseAppBarWidget extends StatelessWidget {
   final AppBar appBar;
   final Widget body;
-  String routeSelected = '';
-  String expandedRoute = '';
-  bool forceExpanded = false;
+  final String routeSelected;
+
+  final GrupoController controller = Get.put(GrupoController());
 
   BaseAppBarWidget(
       {Key? key,
@@ -18,79 +20,44 @@ class BaseAppBarWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  State<BaseAppBarWidget> createState() => _BaseAppBarState();
-}
-
-class _BaseAppBarState extends State<BaseAppBarWidget> {
-  final Color backgroundColor = Colors.blue;
-
-  @override
   Widget build(BuildContext context) {
+    ColorScheme scheme = Theme.of(context).colorScheme;
+
     return Scaffold(
-      appBar: widget.appBar,
+      appBar: appBar,
       drawer: Drawer(
         child: ListView(
-          // physics: ClampingScrollPhysics(),
-          // shrinkWrap: true,
+          shrinkWrap: true,
           padding: EdgeInsets.zero,
           children: <Widget>[
-            const UserAccountsDrawerHeader(
-              accountEmail: Text("augusto.cesar.de.assis@gmail.com"),
-              accountName: Text("Augusto Cesar de Assis"),
-              currentAccountPicture: CircleAvatar(child: Text("AA")),
+            UserAccountsDrawerHeader(
+              accountEmail: const Text("augusto.cesar.de.assis@gmail.com"),
+              accountName: const Text("Augusto Cesar de Assis"),
+              currentAccountPicture: CircleAvatar(
+                child: const Text("AA"),
+                backgroundColor: scheme.primary,
+              ),
             ),
-            DrawerItem(
-              icon: Icons.account_circle,
-              text: 'Cadastros',
-              route: '/cadastro',
-              actualRoute: widget.routeSelected,
-              isChildren: false,
-              hasChildren: false,
+            const DrawerItem(
+              icon: Icons.home,
+              text: 'Início',
+              route: '/',
             ),
-            DrawerItem(
-              icon: Icons.attach_money,
-              text: 'Movimentos',
-              route: '/movimentos',
-              actualRoute: widget.routeSelected,
-              isChildren: false,
-              hasChildren: false,
-            ),
-            DrawerItem(
-                icon: Icons.settings,
-                text: 'Configurações',
-                route: '/configuracoes',
-                actualRoute: widget.routeSelected,
-                isChildren: false,
-                hasChildren: true,
-                onTap: () {
-                  setState(() {
-                    if (widget.expandedRoute.contains('/configuracoes')) {
-                      widget.expandedRoute = '';
-                      widget.forceExpanded = false;
-                    } else {
-                      widget.expandedRoute = '/configuracoes';
-                      widget.forceExpanded = true;
-                    }
-                  });
-                }),
-            DrawerItem(
-              icon: Icons.settings_applications,
-              text: 'Configurações De Campos',
-              route: '/configuracoes/configuracao-campos',
-              expanded: ('/configuracoes/configuracao-campos'
-                              .contains(widget.expandedRoute) &&
-                          widget.expandedRoute.isNotEmpty ||
-                      widget.routeSelected ==
-                          '/configuracoes/configuracao-campos') ||
-                  widget.forceExpanded,
-              actualRoute: widget.routeSelected,
-              isChildren: true,
-              hasChildren: false,
-            ),
+            const MenuDrawer(
+              icon: Icons.settings,
+              title: 'Configurações',
+              children: [
+                DrawerItem(
+                  icon: Icons.settings_applications,
+                  text: 'Configurações de Acesso',
+                  route: '/configuracao-acessos',
+                ),
+              ],
+            )
           ],
         ),
       ),
-      body: widget.body,
+      body: body,
     );
   }
 }

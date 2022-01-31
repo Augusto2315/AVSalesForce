@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj": {}
+    "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj": {
+    "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj",
         "projectName": "SalesForce.DataAccess",
-        "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj",
+        "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj",
         "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\obj\\",
+        "outputPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
-                "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj"
+              "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
+                "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
+    "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
+        "projectUniqueName": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
         "projectName": "SalesForce.Model",
-        "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
+        "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj",
         "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\obj\\",
+        "outputPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj": {
+    "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj",
+        "projectUniqueName": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj",
         "projectName": "SalesForceApi",
-        "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj",
+        "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\SalesForceApi.csproj",
         "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\obj\\",
+        "outputPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForceApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,11 +163,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj": {
-                "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj"
+              "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.DataAccess\\SalesForce.DataAccess.csproj"
               },
-              "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
-                "projectPath": "D:\\Projects\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj"
+              "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj": {
+                "projectPath": "D:\\Projects\\SalesForce 2\\SalesForce\\api\\SalesForceApi\\SalesForce.Model\\SalesForce.Model.csproj"
               }
             }
           }

@@ -57,16 +57,18 @@ namespace SalesForce.DataAcess
             return objs;
         }
 
-        internal async virtual void Delete(T obj)
+        internal async virtual Task<bool> Delete(T obj)
         {
             try
             {
                 DBContext.Remove(obj);
                 await DBContext.SaveChangesAsync();
+                return true;
             }
             catch (Exception)
             {
                 throw;
+                return false;
             }
         }
 
